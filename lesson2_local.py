@@ -9,7 +9,7 @@ from crewai import Agent, Task, Crew
 OPENAI_API_KEY=''
 
 llm = Ollama(
-    model = "gemma2:27b",
+    model = "llama3.1:8b",
     base_url = "http://host.docker.internal:11434")
 
 planner = Agent(
